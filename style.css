@@ -1,0 +1,39 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: fixed;
+    z-index: 1000;
+    background-color: #2F4659;
+    width: 100vw;
+    height: 8rem;
+    
+}
+
+header div{
+    color: #D9B504;
+    padding: 50px;
+    display: flex;  
+    align-items: center;
+    gap: 150px;
+}
+
+main{
+    
+}
+
+.titulo{
+    margin-top: 150px;
+}
