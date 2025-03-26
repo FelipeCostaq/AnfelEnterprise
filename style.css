@@ -152,8 +152,89 @@ section{
 }
 
 aside{
+    border-top: 0.1rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 50rem;
     background: linear-gradient(to bottom, #640081, #2d014b, rgb(70, 2, 70));
+}
+
+.form_box{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff00;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.form_box .title{
+    color: white;
+    font-family: 'PoppinsBold', sans-serif;
+    padding: 24px 32px;
+    font-size: 26px;
+    border-bottom: thin solid #ccc;
+}
+
+.form_box form{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.form_box input,
+.form_box textarea{
+    width: calc(45% - 8px);
+    height: 48px;
+    border-radius: 8px;
+    border: thin solid #999;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+
+}
+
+.form_box input:first-child{
+    margin-right: 16px;
+    
+}
+
+.form_box input[name=subject]{
+    width: 100%;
+}  
+
+.form_box textarea{
+    width: 100%;
+    height: 180px;
+    padding: 16px;
+}
+
+.form_box button{
+    display: block;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #5F7FFF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    transform: color 0.3s ease;
+}
+
+.form_box button:hover{
+    transform: scale(1.03);
+    background-color: #465dbb;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 10rem;
 }
 
