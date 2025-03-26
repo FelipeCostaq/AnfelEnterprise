@@ -45,7 +45,20 @@
         </div>
     </section>
     <aside>
-        
+        <div class="form_box">
+
+            <h2 class="title">Envie sua mensagem</h2>
+            <form method="post" action="https://api.staticforms.xyz/submit">
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu email" required>
+                <input type="text" name="subject" placeholder="Assunto" required>
+                <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+                <input type="hidden" name="accessKey" value="6d8862ae-f1b7-440f-b605-272f2f9359b2">
+                <input type="hidden" name="redirectTo" value="https://felipecdeveloper.netlify.app/">
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+
+        </div>
     </aside>
 </body>
 </html>
